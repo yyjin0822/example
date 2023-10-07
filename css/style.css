@@ -1,0 +1,113 @@
+@charset "utf-8";
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+.wrap {
+    width: 1300px;
+    margin: 0 auto;
+}
+header {
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 10;
+}
+ul.gnb{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    line-height: 50px;
+    text-align: center;
+}
+.smenu{
+    width: 1100px;
+    height: 100%;
+    text-align: left;
+    margin: 0 auto;
+}
+.smenu img {
+    width: 3%;
+    height: 3%;
+    margin-top: 10px;
+}
+.menu {
+    width: 400px;
+    height: 100%;
+    display: flex;
+}
+.menu li{
+    width: 100%;
+    height: 100%;
+}
+.menu li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.menu li:hover{
+    font-weight: bold;
+}
+
+
+/* 메인메뉴 */
+.tit {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.select {
+    width: 100%;
+    height: 50px;
+}
+.select li {
+    width: 100%;
+    height: 100%;
+    display: inline;
+}
+
+.select li .sel {
+    width: 80%;
+    height: 100%;
+    float: right;
+}
+.select li .sel .input_text {
+    width: 30%;
+    height: 100%;
+    margin-left: 50%;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.select li .click {
+    width: 10%;
+    height: 100%;
+    margin-left: 2%;
+    font-size: 20px;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+    border: 1px solid #333;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #333;
+    text-align: center;
+    padding: .5em;
+}
